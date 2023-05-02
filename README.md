@@ -14,9 +14,8 @@ This project demonstrates how to use Haxe to create an interactive map using the
 
 1. Install Haxe (https://haxe.org/download/)
 2. Pull this repo down and cd into the folder
-3. Save the provided `Main.hx`, `Leaflet.hx`, `index.html`, and `build.hxml` files in their respective locations in the project folder
-4. Run `haxe build.hxml` in the terminal/command prompt to compile the project
-5. Open `index.html` in a web browser to view the interactive map
+3. Run `haxe build.hxml` in the terminal/command prompt to compile the project
+4. Open `index.html` in a web browser to view the interactive map
 
 ## How It Works
 
