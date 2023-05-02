@@ -9,7 +9,7 @@ class Main {
         // Ensure the Leaflet library is fully loaded before initializing the map
         Browser.window.onload = initMap;
     }
-    
+
     private function initMap(event: Event): Void {
         // Create a div for the map
         var mapDiv: DivElement = Browser.document.createDivElement();
@@ -25,7 +25,7 @@ class Main {
         });
         osmLayer.addTo(map);
     }
-    
+
     public static function main(): Void {
         new Main();
     }
